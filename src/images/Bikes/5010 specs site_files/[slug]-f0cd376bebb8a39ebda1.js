@@ -1,0 +1,1 @@
+_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[9],{"/SNE":function(n,_,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/bikes/[slug]",function(){return w("wAKy")}])},wAKy:function(n,_,w){"use strict";w.r(_),w.d(_,"__N_SSG",(function(){return i}));var u=w("Yctg"),i=!0;_.default=u.a}},[["/SNE",0,1,2,3]]]);

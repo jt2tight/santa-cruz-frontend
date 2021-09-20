@@ -1,0 +1,111 @@
+.Frame {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Frame select {
+    margin-top: 10px;
+    padding: 5px 10px; 
+}
+
+.Info {
+    margin-top: -2.5%;
+    width: 50%;
+    position: relative;
+}
+
+.Info ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: -25px;
+}
+
+.Attribute {
+    color:rgb(153, 63, 63);
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.FrameSelector {
+    position: relative;
+    margin: auto;
+    
+}
+
+.FrameSelector img {
+    width: 70%;
+    height: auto;
+    margin: auto; 
+}
+
+.AttributeSelector {
+    padding-top: 10px;
+
+}
+
+.MaterialSelector {
+    display: block;
+    text-align: left;
+    display: block;
+}
+
+.SizeSelector {
+    display: block;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.ColorSelector {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin: auto;
+}
+
+.Purple {
+    position: relative;
+    margin: auto;
+    background-color: rgb(177, 113, 177);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+
+.Green {
+    position: relative;
+    margin: auto;
+    background-color: rgb(122, 216, 130);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+
+.Pricing {
+    text-align: left;
+}
+
+.SelectBtn {
+    position: relative;
+    height: auto;
+    width: 110px;
+    padding: 10px 25px;
+    background-color: rgb(34, 34, 34);
+    margin-right: auto; 
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+.SelectBtn:hover {
+    background-color: rgb(151, 76, 76);
+    
+}

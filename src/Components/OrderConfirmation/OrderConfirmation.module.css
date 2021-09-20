@@ -1,0 +1,36 @@
+.body {
+    background-color: black;
+    color: white;
+}
+
+.OrderConfirmation {
+    width: 100%;
+    height: 100vh; 
+    padding-top: 10%; 
+    padding-bottom: 10%; 
+    color: white;
+    position: relative;
+
+}
+
+.Success {
+    font-size: 5rem;
+    color: rgb(8, 204, 8); 
+    padding-bottom: 50px;
+}
+
+.OrderConfirmation h2 {
+    color: rgb(190, 90, 90);
+    padding-top: 50px;
+}
+
+
+.Icons {
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0px 25px;
+}
+
+.Icons:hover {
+    color:rgb(190, 90, 90);
+}

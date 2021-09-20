@@ -1,0 +1,58 @@
+.SummaryWidget{
+    height: 100%;
+    margin: auto;
+    margin-top: 12px;
+    display: flex;
+
+}
+
+.BikeImage {
+    position: relative;
+    height: 50%; 
+    width: 100%;
+    /* padding: 0% 5%;  */
+    display: flex;
+    margin: auto; 
+    background: black;
+    
+}
+
+.BikeImage img{
+    position: relative;
+    width: 250px;
+    height: auto;
+    margin: auto; 
+    margin-left: 25%;
+    
+    
+
+}
+
+.OrderSummary {
+    position: relative;
+    min-height: 35%; 
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+
+}
+
+.OrderSummary h2 {
+    font-size: 2rem;
+}
+
+.Details {
+    font-size: 1rem;
+    text-align: left;
+    color: rgb(179, 179, 179);
+    width: 33%; 
+    margin: auto;
+}
+
+.Details ul {
+    list-style: none;
+}
+
+.Details ul li {
+    padding: 5px;
+}

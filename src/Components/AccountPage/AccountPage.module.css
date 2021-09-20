@@ -1,0 +1,84 @@
+.AccountPage {
+    /* background: rgb(131,58,180);
+    background: linear-gradient(150deg, rgba(131,58,180,1) 23%, rgba(253,149,29,1) 74%, rgba(252,244,69,1) 100%);
+    */
+    background-color: black;
+    min-height: 100vh;
+    width: 100%; 
+    position: relative;
+    color: rgb(255, 255, 255);
+
+}
+
+.AccountPage h1 {
+    color: white;
+}
+
+.AccountPage p {
+    line-height: 1px;
+}
+
+.AccountHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.CustomerSupport {
+    text-align: right;
+    width: 50%;
+     
+}
+
+.AccountPage hr {
+    width: 80%; 
+    margin-top: 5%; 
+    border: 1px solid rgb(80, 80, 80); 
+}
+
+.DetailsBox {
+    margin: auto;
+    width: 80%;
+    
+    
+}
+
+.AccountDetails {
+    background-color: black;
+    width: 70%;
+    text-align: left;
+    margin: auto;
+    
+    padding: 50px 0%; 
+    padding-top: 10%;
+    position: relative;
+    margin-bottom: 5%; 
+}
+
+.AccountDetails ul {
+    list-style-type: none;
+}
+
+.MyOrders {
+    width: 80%;
+    margin: auto;
+    margin-top :2.5%; 
+}
+
+.CustomerSupport a{
+    color: white;
+    text-decoration: none;
+}
+
+.CustomerSupport a:hover {
+    text-decoration: underline;
+}
+
+@media screen and  (max-width: 1440px) {
+    .AccountDetails {
+        width: 90%;
+    }
+    
+}

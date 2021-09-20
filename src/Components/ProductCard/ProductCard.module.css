@@ -1,0 +1,51 @@
+.ProductCard {
+    position: relative;
+    width: 40%;
+    text-align: center;
+    margin: auto; 
+    padding: 10px;
+    color:rgb(97, 47, 47);
+    
+}
+
+.Active {
+    position: relative;
+    width: 40%;
+    text-align: center;
+    margin: auto; 
+    /* border-bottom: 3px solid rgb(97, 47, 47);  */
+    padding: 10px;
+    color: white;
+
+    
+}
+
+.Active img {
+    position: relative;
+    max-width: 300px;
+    width: 50%; 
+    height: auto; 
+
+}
+
+.ProductCard img {
+    position: relative;
+    max-width: 300px;
+    width: 50%; 
+    height: auto; 
+}
+
+.Header {
+    text-align: center;
+    position: relative;
+}
+
+.Info {
+    position: relative;
+}
+
+.Action {
+    display: flex;
+    position: relative;
+}
+

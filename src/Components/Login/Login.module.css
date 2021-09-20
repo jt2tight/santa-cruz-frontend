@@ -1,0 +1,76 @@
+.Login {
+    height: 100vh;
+    width: 100%; 
+    color: white;
+    position: relative;
+    background: rgb(131,58,180);
+    background: linear-gradient(150deg, rgba(131,58,180,1) 23%, rgba(253,149,29,1) 74%, rgba(252,244,69,1) 100%);
+    display: flex;
+    
+}
+
+.LoginContainer {
+    width: 25%;
+    margin: auto;
+    display: block;
+    background-color: black;
+    padding: 5% 0%;
+    
+}
+
+.LoginContainer form {
+    display: block;
+}
+
+.Input {
+    padding: 5px 10px;
+    margin: 10px 0px;
+    height: 25px;
+    width: 80%; 
+    border: none;
+}
+
+.PasswordReset {
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+
+.Signup {
+    margin-top: 50px;
+}
+
+.Login a{
+    color: rgb(204, 128, 128);
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.Login a:hover {
+    color: red;
+}
+
+.ErrorMessage {
+    color: red;
+    padding-top: 50px;
+}
+
+.SubmitBtn {
+    width: 80%; 
+    height: auto;
+    padding: 10px 5px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(134, 67, 67);
+
+}
+
+.SubmitBtn:hover {
+    background-color: rgb(175, 78, 78);
+}
+
+.Error {
+    color: red; 
+}

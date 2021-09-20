@@ -1,0 +1,22 @@
+.Desktop {
+    margin: 0%; 
+    padding: 0%; 
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+
+.Test {
+    height: 100vh;
+}
+
+.Builder {
+    display: flex;
+}
+
+.ComponentContainer {
+    width: 100%;
+    display: flex;
+    position:absolute;
+    justify-content: flex-start;
+}

@@ -1,0 +1,159 @@
+body {
+    /* background-color: black; */
+    font-family: 'Questrial', sans-serif;
+}
+
+.Shipping {
+    /* background-image: url('../../images/scb_bg1.jpeg');
+    background-size: stretch;
+    background-position: bottom; */
+    background: rgb(131,58,180);
+    background: linear-gradient(150deg, rgba(131,58,180,1) 23%, rgba(253,149,29,1) 74%, rgba(252,244,69,1) 100%);
+    padding-bottom: 5%;
+    min-height: 100vh; 
+    width: 100%; 
+    max-width: 100vw;
+    position: relative;
+    display: flex;
+    
+    
+
+}
+
+.ShippingContainer {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 85%;
+    margin-top: 10%;
+    /* padding-right: 5%;  */
+    /* margin-left: 15%;  */
+    border: 1px solid rgb(133, 53, 53);
+    border-radius: 4px;
+    background-color: rgba(0,0,0,1);
+    
+
+}
+
+.ShippingContainer hr {
+    width: 90%; 
+    margin: auto auto;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.ShippingContainer h1 {
+    text-align: center;
+    /* color: rgb(153, 63, 63); */
+    
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    
+}
+
+.ShippingContainer h2 { 
+    font-size: 1.2rem;
+    color: rgb(153, 63, 63);
+    color: rgb(216, 98, 98);
+}
+
+
+.ShippingForm {
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    align-items: center;
+    align-content: space-between;
+    color: rgb(255, 255, 255);
+    /* background-color: rgba(0, 0, 0, 0.55); */
+    /* background: none; */
+    padding: 2.5% 0%;
+}
+
+.OrderContact {
+    position: relative;
+    
+    
+}
+
+.SubHeader {
+    width: 85%;
+    margin: auto;
+}
+
+.Input {
+    display: block;
+    height: 25px;
+    width: 85%;
+    padding: 5px 10px;
+    margin: 10px auto;
+    /* background-color: rgba(7, 7, 7, 0.45); */
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.05rem;
+    border-bottom: 1px solid rgb(112, 112, 112); 
+}
+
+.Input::placeholder {
+    color: rgb(94, 94, 94);
+}
+
+.Input:active {
+    background-color: rgba(82, 82, 82, 0.45);
+
+}
+
+.SubmitBtn {
+    width: 90%; 
+    background-color: rgb(143, 58, 58);
+    color: white; 
+    text-align: center;
+    padding: 10px 0px;
+    cursor: pointer;
+    margin: 2.5% auto;
+    
+
+}
+
+.SubmitBtn:hover{
+    background-color: rgb(190, 69, 69);
+}
+
+.OrderSummary {
+    width: 90%;
+    height: 35%;
+    margin: auto;
+    /* margin-left: 20%; */
+    display: block;
+    
+    /* padding: 15px 50px;
+    padding-right: 50px; */
+   background: black;
+   /* border: 1px solid rgb(175, 175, 175);  */
+   color: white;
+   text-align: left;
+   
+}
+
+.OrderSummary h2 {
+    padding-top: 10px;
+    color: white;
+}
+
+@media screen and (max-width: 1200px ){
+    .ShippingContainer {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .Input {
+        padding: 10px 15px;
+    }
+    
+}
+
+

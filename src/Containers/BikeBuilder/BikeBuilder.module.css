@@ -1,0 +1,57 @@
+.BikeBuilder {
+    height: 100vh; 
+    padding-top: 5%;
+    font-family: 'Quicksand', sans-serif;
+    transition: ease-in-out 2s;
+}
+
+.Header {
+    text-align: left;
+    width: 92.5%;
+    margin: auto;
+    
+}
+
+.Header h1 {
+    font-family: 'Barlow', sans-serif;
+    color: rgb(153, 63, 63);
+    font-size: 3rem;
+}
+
+.BikeBuilder hr {
+    border-color: rgb(27, 27, 27); 
+}
+
+.BuildContainer {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.BikeImageHolder img {
+    margin: auto;
+    width: 50%; 
+}
+
+.ComponentContainer {
+    margin: auto;
+    width: 60%; 
+    min-height: 80vh;
+}
+
+.ComponentHeader {
+    text-align: left;
+    font-family: 'Barlow', sans-serif;
+    color:rgb(153, 63, 63);
+    text-transform: uppercase;
+}
+
+.BikeBuilderOff {
+    /* display: none; */
+    transition: .5s ease-in-out;
+    transform: translateX(-100%);
+}
+
+.BikeBuilderOff hr {
+    border-color: rgb(27, 27, 27); 
+}

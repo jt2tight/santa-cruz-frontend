@@ -1,0 +1,56 @@
+.UserOrderItem hr{
+    width: 75%;
+    margin: auto;
+    border: 1px solid rgb(65, 65, 65); 
+}
+
+.UserOrderItemDetails {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    margin: auto;
+    position: relative;
+    height: 200px; 
+    color: white;
+    align-content: center;
+    align-items: center
+}
+
+.UserOrderItem ul {
+    list-style-type: none;
+    margin: auto;
+}
+
+.UserOrderItem img {
+    width: 200px;
+    height: auto; 
+    margin: auto; 
+}
+
+.Action {
+    text-align: left;
+    margin-right: auto;
+    width: auto;
+     
+}
+
+.Action p {
+    line-height: 2px;
+    
+}
+
+.UserOrderItem a {
+    color: white; 
+    text-decoration: none;
+}
+
+.UserOrderItem a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1440px){
+    .UserOrderItem img{
+        width: 150px; 
+    }
+}

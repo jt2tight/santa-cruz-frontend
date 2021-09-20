@@ -1,0 +1,92 @@
+.Footer {
+    min-height: 40vh; 
+    width: 100%; 
+    margin-top: auto;
+    background-color: rgb(20, 20, 20);
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    bottom: 0px;
+}
+
+.InnerFooter {
+    color: white; 
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-left: 7%; 
+}
+
+.FooterCard {
+    width: 25%; 
+    min-height: 100%; 
+    margin: auto;
+    margin-top: 0%; 
+    position: relative;
+    text-align: left;
+
+}
+
+.FooterCard h2 {
+    color: white; 
+    margin: auto;
+    text-align: left;
+    
+}
+
+.FooterCard ul {
+    list-style-type: none;
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 0;
+    
+    
+}
+.FooterCard ul li {
+    padding: none; 
+    margin: none;
+    text-indent: 0%;
+}
+
+.SocialMediaLinks {
+
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 10%;
+    padding-top: 15px;
+}
+
+.Icons {
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Icons:hover {
+    color: rgb(133, 60, 60); 
+}
+
+.NewsLetterSubscribe {
+    display: flex;
+    justify-content: start;
+}
+
+.NewsLetterSubscribe input {
+    padding: 5px 10px;
+    height: 20px;
+}
+
+.NewsLetterSubscribe button {
+    background-color: rgb(141, 62, 62);
+    color: white;
+    border: none;
+    height: 33.5px;
+    cursor: pointer;
+    
+}
+
+.NewsLetterSubscribe button:active {
+    background-color: black;
+}

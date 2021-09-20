@@ -1,0 +1,85 @@
+.Signup {
+    height: 100vh;
+    width: 100%; 
+    color: white;
+    position: relative;
+    background: rgb(131,58,180);
+    background: linear-gradient(150deg, rgba(131,58,180,1) 23%, rgba(253,149,29,1) 74%, rgba(252,244,69,1) 100%);
+    display: flex;
+    
+}
+
+.SignupContainer {
+    width: 25%;
+    margin: auto;
+    display: block;
+    background-color: black;
+    padding: 5% 0%;
+    
+}
+
+.SignupContainer form {
+    display: block;
+}
+
+.Input {
+    padding: 5px 10px;
+    margin: 10px 0px;
+    height: 25px;
+    width: 80%; 
+    border: none;
+}
+
+.PasswordReset {
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+
+.Signup {
+    margin-top: 50px;
+}
+
+.Signup a{
+    color: rgb(204, 128, 128);
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.Signup a:hover {
+    color: red;
+}
+
+.ErrorMessage {
+    color: red;
+    padding-top: 50px;
+}
+
+.SubmitBtn {
+    width: 80%; 
+    height: auto;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(134, 67, 67);
+
+}
+
+.SubmitBtn:hover {
+    background-color: rgb(175, 78, 78);
+}
+
+.Success {
+    background-color: rgba(0,0,0,0.5);
+    margin: auto; 
+    text-align: center;
+}
+
+.Error {
+    color: red; 
+}
+
+.NoError {
+    height: 16px; 
+}

@@ -1,25 +1,45 @@
-import logo from './logo.svg';
 import './App.css';
+import SantaCruzApp from './Containers/SantaCruzApp/SantaCruzApp';
+import { AuthContext, AuthContextProvider } from './store/auth-context';
+import Footer from './Components/Footer/Footer';
+import { useEffect, useContext } from 'react';
+
+
+
 
 function App() {
+  const authCtx = useContext(AuthContext);
+
+
+
+  const LoadData = () => {
+    const loggedInUser = localStorage.getItem('user');
+    const loggedInEmail = localStorage.getItem('userEmail');
+    const loggedInToken = localStorage.getItem('userToken');
+    console.log(loggedInUser)
+
+    if(loggedInUser){
+      authCtx.login(loggedInToken, loggedInUser, loggedInEmail)
+  }
+
+
+
+}
+
+  useEffect(()=>{
+    LoadData();
+  }, [])
+
+  
   return (
+    <AuthContextProvider>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SantaCruzApp />
+      <Footer />
     </div>
+  </AuthContextProvider>
   );
+
 }
 
 export default App;

@@ -1,0 +1,52 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white; 
+    position: fixed;
+    left: 0;
+    top: 0; 
+    width: 100%;
+    z-index: 1000;
+}
+
+.LogoContainer {
+    height: 100px;
+    width: 20%; 
+    margin-right: auto; 
+}
+
+.NavLinks {
+    margin: auto; 
+    margin-left: auto;
+}
+
+.NavLinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.NavLinks a:hover {
+    color: rgb(158, 63, 63); 
+}
+
+.NavLinks a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.NavLinks ul {
+    list-style-type: none;
+    display: flex;
+    
+    position: relative;
+}
+
+.NavLinks ul li {
+    padding: 10px 25px; 
+}
+
+.Email {
+    font-size: .75rem;
+    color: gray;
+}

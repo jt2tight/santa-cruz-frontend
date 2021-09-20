@@ -1,0 +1,79 @@
+.BuildSummary {
+    position: relative;
+    width: 20%;
+    margin-left: auto;
+    margin-right: 2.5%; 
+    padding-top: 2%; 
+    height: 60vh;
+   
+}
+
+.BikeImage {
+    position: relative;
+    height: 33%; 
+    width: auto;
+    display: flex;
+    margin: auto; 
+}
+
+.BikeImage img{
+    position: relative;
+    width: 150px;
+    height: auto;
+    margin: auto; 
+
+}
+
+.OrderSummary {
+    position: relative;
+    min-height: 35%; 
+    text-align: center;
+    padding: 5px 10px;
+
+}
+
+.Checkout {
+    position: relative;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: -50px;
+    
+}
+
+.CheckoutBtn {
+    position: relative;
+    height: auto;
+    width: 100px;
+    padding: 10px 25px;
+    background-color: rgb(153, 63, 63);
+    margin: auto; 
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid black; 
+    border-radius: 5%;
+}
+
+.CheckoutBtn:hover {
+    background-color: rgb(151, 76, 76);
+    border: 2px solid rgb(255, 255, 255); 
+}
+
+.Details {
+    font-size: .75rem;
+    text-align: left;
+    color: rgb(179, 179, 179);
+    width: 50%; 
+    margin: auto;
+}
+
+.Details ul {
+    list-style: none;
+}
+
+@media  screen and (max-width: 1440px) {
+    .Details {
+        width: 70%;
+    }
+    
+}

@@ -1,0 +1,73 @@
+.Checkout {
+    height: 90vh; 
+    position: relative;
+    width: 100%; 
+    padding-top: 5%; 
+    text-align: left;
+    background-color: black;
+    
+}
+
+.Checkout a {
+    text-decoration: none;
+    color: white; 
+}
+
+.Checkout a:visited {
+    color: white; 
+}
+
+.Header {
+    text-align: left;
+    width: 92.5%;
+    margin: auto;
+    color: rgb(153, 63, 63);
+    
+}
+
+.Header h1 {
+    font-family: 'Barlow', sans-serif;
+    color: rgb(153, 63, 63);
+    font-size: 3rem;
+}
+
+.Checkout hr {
+    border-color: rgb(27, 27, 27); 
+    color:rgb(37, 37, 37);
+}
+
+.CheckoutDetailContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+.CheckoutDetailContainer ul{
+    list-style-type: none;
+    color:rgb(167, 167, 167);
+}
+
+.CheckoutDetailContainer ul li {
+    padding: 5px 0px; 
+}
+
+.BikeImage {
+    width: 90%; 
+    margin: auto;
+    display: flex;
+}
+
+.BikeImage img {
+    width: 60%;
+    height: auto; 
+    margin: auto;
+}
+
+.OrderAction {
+    width: 25%;
+    height: auto; 
+    text-align: center;
+    padding-top: 5%; 
+}

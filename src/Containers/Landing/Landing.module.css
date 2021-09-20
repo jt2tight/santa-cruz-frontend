@@ -1,0 +1,78 @@
+
+@media screen and (max-width: 1920px) {
+
+    .Landing {
+        height: 85vh;
+        background-color: black;
+        overflow: hidden;
+        padding-top: 5%;
+    }
+
+    .Landing img {
+        width: 100vw; 
+    }
+
+    .TopLayer {
+        transform: translateY(-100%);
+    }
+    .LogoPNG{
+        transform: translateY(-1500%);
+        position: relative;
+        z-index: 500; 
+    }
+
+    .LogoPNG img {
+        height: 100px; 
+        margin-right: 50%;
+        z-index: 500;
+        width: auto; 
+        
+    }
+
+
+
+    .BackgroundLayer {
+        position: relative;
+        z-index: 50;
+    }
+
+    .TopLayer {
+        position: relative;
+        top: 0; 
+        z-index: 100;
+
+    }
+    
+}
+
+@media screen and (max-width: 1441px) {
+    
+
+.Landing {
+    height: 95vh;   
+    padding-top: 5%;
+    
+    
+}
+
+
+.TopLayer {
+    transform: translateY(-96%);
+    
+}
+
+.LogoPNG {
+    transform: translateY(-1100%);
+
+}
+
+
+}
+
+
+
+@media screen and (max-width: 1366px) {
+    .Landing {
+        height: 85vh;
+    }
+}

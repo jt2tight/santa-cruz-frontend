@@ -1,0 +1,80 @@
+
+
+.Payment {
+    color: rgb(219, 219, 219);
+    text-align: left; 
+    background: rgb(131,58,180);
+    background: linear-gradient(150deg, rgba(131,58,180,1) 23%, rgba(253,149,29,1) 74%, rgba(252,244,69,1) 100%);
+    height: 100vh; 
+    margin: auto;
+    padding-top: 10%; 
+    padding-bottom: 20%; 
+    width: 100%; 
+    position: relative;
+    
+    
+}
+
+/* .InnerPayment {
+    position: relative;
+    margin-top: 10%; 
+} */
+
+.PaymentDetails {
+    width: 80%; 
+    height: 85%; 
+    margin: auto;
+    padding: 5% 50px;
+    padding-bottom: 200px;
+    background-color: black;
+    position: relative;
+    
+}
+
+.Payment h1{
+    color: white;
+}
+
+.PaymentDetails ul {
+    list-style-type: none;
+}
+
+.PaymentDetails hr{
+    border: 1px solid rgb(68, 68, 68);
+}
+
+.OrderDetailsContainer {
+    display: flex; 
+}
+
+.ShippingInfo {
+    display: flex;
+    width: 40%;
+}
+
+.InfoCard {
+    margin-left: 5%; 
+}
+
+.Details {
+    display: block;
+    width: 100%;
+}
+
+.BikeDetails {
+    display: flex;
+    width: 100%; 
+     
+}
+
+.BikeDetails img {
+    width: 40%; 
+    padding-left: 15%;
+}
+
+.TotalSummary {
+    width: 33%;
+    margin-left: 20%;
+    margin-top: 10%;
+     
+}
